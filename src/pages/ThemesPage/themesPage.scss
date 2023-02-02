@@ -1,0 +1,44 @@
+.themes {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+
+    &-btn {
+        width: 200px;
+        min-height: 45px;
+        padding: 5px 10px;
+        font-size: 18px;
+        font-weight: 500;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:not(:last-child) {
+            margin-bottom: 20px;
+        }
+
+        &:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+    }
+}
+
+.dark {
+    color: rgb(209, 187, 46);
+    background-color: rgb(111, 103, 120);
+    border: 2px solid rgb(25, 25, 25);
+}
+
+.light {
+    color: rgb(10, 10, 10);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(206, 240, 227);
+}
+
+.blue {
+    color: rgb(201, 201, 201);
+    background-color: rgb(41, 67, 153);
+    border: 2px solid rgb(34, 22, 105);
+}

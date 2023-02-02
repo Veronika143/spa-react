@@ -1,0 +1,38 @@
+.layout {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    overflow: hidden;
+
+    &-dark {
+        color: rgb(209, 187, 46);
+        background-color: rgb(111, 103, 120);
+
+        svg {
+            fill: rgb(209, 187, 46);
+        }
+    }
+
+    &-light {
+        color: rgb(10, 10, 10);
+        background-color: rgb(255, 255, 255);
+
+        svg {
+            fill: rgb(10, 10, 10);
+        }
+    }
+
+    &-blue {
+        color: rgb(201, 201, 201);
+        background-color: rgb(41, 67, 153);
+
+        svg {
+            fill: rgb(201, 201, 201);
+        }
+    }
+}

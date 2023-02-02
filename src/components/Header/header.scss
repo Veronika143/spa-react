@@ -1,0 +1,16 @@
+.header {
+    grid-area: header;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+
+    &__reload {
+        position: absolute;
+        right: 30px;
+        cursor: pointer;
+    }
+}
